@@ -28,6 +28,7 @@ public class ProgressDots extends LoaderView {
 
     @Override
     public void initializeObjects() {
+        circles = new Circle[circlesSize];
         for (int i = 0; i < circlesSize; i++) {
             circles[i] = new Circle();
             circles[i].setColor(color);
