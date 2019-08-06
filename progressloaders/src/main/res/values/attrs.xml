@@ -19,6 +19,8 @@
             <enum name="Whirlpool" value="9"/>
             <enum name="Radar" value="6"/>
             <enum name="ProgressDots" value="12"/>
+            <enum name="GearDuo" value="13"/>
         </attr>
+        <attr name="GearDrawable" format="reference"  />
     </declare-styleable>
 </resources>

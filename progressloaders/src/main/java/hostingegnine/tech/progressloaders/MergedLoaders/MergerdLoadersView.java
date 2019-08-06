@@ -35,8 +35,8 @@ public class MergerdLoadersView extends View implements MLInvalidateListener {
     private void initialize(Context context, AttributeSet attrs, int defStyleAttr) {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MKLoader);
         int loaderType = typedArray.getInt(R.styleable.MKLoader_mk_type,-1);
-
-        loaderView = LoaderGenerator.generateLoaderView(loaderType);
+        int resourceId = typedArray.getResourceId(R.styleable.MKLoader_GearDrawable, R.drawable.gear_duo);
+        loaderView = LoaderGenerator.generateLoaderView(loaderType,context,resourceId);
         loaderView.setColor(typedArray.getColor(R.styleable.MKLoader_mk_color, Color.parseColor("#ffffff")));
 
         typedArray.recycle();

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0DC5C1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mk_type="GearDuo"
+                app:GearDrawable="@drawable/box_rotate"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="TwinFishesSpinner"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="ClassicSpinner"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            >
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mk_type="LineSpinner"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="FishSpinner"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="PhoneWave"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            >
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mk_type="ThreePulse"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="FourPulse"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="FivePulse"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            >
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mk_type="Worm"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="Whirlpool"
+                />
+
+            <hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                app:mk_type="ProgressDots"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

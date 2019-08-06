@@ -1,7 +1,10 @@
 package hostingegnine.tech.progressloaders.MergedLoaders;
 
 
+import android.content.Context;
+
 import hostingegnine.tech.progressloaders.MergedLoaders.type.FlashSpinner;
+import hostingegnine.tech.progressloaders.MergedLoaders.type.GearDuo;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.LineSpinner;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.PhoneWave;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.ProgressDots;
@@ -12,13 +15,14 @@ import hostingegnine.tech.progressloaders.MergedLoaders.type.TwinFishesSpinner;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.Whirlpool;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.Worm;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.ClassicSpinner;
+import hostingegnine.tech.progressloaders.R;
 
 /**
  * Created by Sourabh kaushik on 8/5/2019.
  */
 public class LoaderGenerator {
 
-    public static LoaderView generateLoaderView(int type) {
+    public static LoaderView generateLoaderView(int type, Context context,int resourceId) {
 
         switch (type) {
             case 0:
@@ -59,6 +63,8 @@ public class LoaderGenerator {
                 return new Sharingan();
             case 12:
                 return  new ProgressDots();
+            case 13:
+                return  new GearDuo(context,resourceId);
             default:
                 return new ClassicSpinner();
         }
