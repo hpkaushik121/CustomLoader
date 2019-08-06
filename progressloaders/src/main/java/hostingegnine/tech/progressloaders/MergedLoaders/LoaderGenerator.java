@@ -12,7 +12,6 @@ import hostingegnine.tech.progressloaders.MergedLoaders.type.TwinFishesSpinner;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.Whirlpool;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.Worm;
 import hostingegnine.tech.progressloaders.MergedLoaders.type.ClassicSpinner;
-import tech.kaushik.sourabh.com.customeloader.ProgressDotsView.AVLoadingIndicatorView;
 
 /**
  * Created by Sourabh kaushik on 8/5/2019.
