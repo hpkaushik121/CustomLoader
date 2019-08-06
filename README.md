@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/hpkaushik121/CustomLoader.svg)](https://jitpack.io/#hpkaushik121/CustomLoader)
 
 
-Usage:
+## Usage:
 
 ````<hostingegnine.tech.progressloaders.MergedLoaders.MergerdLoadersView
                 android:layout_width="wrap_content"
@@ -13,9 +13,25 @@ Usage:
                 />
 ````
 
+## Supported Types:
 
+* Sharingan
+* TwinFishesSpinner
+* ClassicSpinner
+* LineSpinner
+* FishSpinner
+* PhoneWave
+* ThreePulse
+* FourPulse
+* FivePulse
+* Worm
+* Whirlpool
+* Radar
+* ProgressDots
+* GifLoader 
+* * srcDrawable
 
-Add it to your build.gradle with:
+## Download :
 ```gradle
 allprojects {
     repositories {
