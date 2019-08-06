@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">CustomeLoader</string>
-    <string name="custom_loader">Custom Loader</string>
-    <string name="custom_button">Cutom Buttons</string>
-    <string name="custom_loader_progress_dots">Progress Dots</string>
-</resources>
